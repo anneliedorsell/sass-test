@@ -1,0 +1,9 @@
+@use 'fonts';
+
+@import 'main';
+@import 'fonts';
+@import 'gridcontainer';
+
+body {
+    font-family: fonts.$main-font;
+}

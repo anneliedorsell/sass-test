@@ -1,0 +1,122 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+.main__heading {
+  text-align: left;
+  padding-top: 30px;
+  color: black;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.main__intro {
+  text-align: left;
+  color: #b7f50d;
+  font-size: 22px;
+}
+
+.gridcontainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: repeat 32, 1fr;
+  grid-template-rows: repeat 32, 1fr;
+  -ms-grid-columns: repeat 9, 1fr;
+  grid-template-columns: repeat 9, 1fr;
+  background-color: chartreuse;
+}
+
+.gridcontainer > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.gridcontainer > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.gridcontainer > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.gridcontainer > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.gridcontainer > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.gridcontainer > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.gridcontainer > *:nth-child(7) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.gridcontainer > *:nth-child(8) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+}
+
+.gridcontainer > *:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.gridcontainer > *:nth-child(10) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+
+.gridcontainer > *:nth-child(11) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.gridcontainer > *:nth-child(12) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+}
+
+.gridcontainer > *:nth-child(13) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+}
+
+.gridcontainer > *:nth-child(14) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+}
+
+.gridcontainer > *:nth-child(15) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+}
+
+.gridcontainer > *:nth-child(16) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+}
+
+.item1 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-row-span: 6;
+  grid-row-end: 7;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
