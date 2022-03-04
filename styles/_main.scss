@@ -1,13 +1,16 @@
 $main-txt-color: black;
 
 .main {
-    display: flex;
-    flex-direction: column;
+    display: flex;   
+    justify-content: center;
     width: 100%;
-    background-color: darkorange;
-
-    &__heading {
-        width: 50%;
+    
+    .main__container {
+        width: 90%;
+        padding-bottom: 2rem;        
+    }
+    
+    &__heading {      
         text-align: left;    
         color: blue;
         font-size: 22px; 
@@ -18,7 +21,7 @@ $main-txt-color: black;
         text-align: left;
         font-size: 40px;
         line-height: 50px;
-        width: 50%;
+        width: 60%;      
     }
 
     &__blue {

@@ -13,49 +13,56 @@
     <title>Sass test</title>
 </head>
 <body>
+    
 <!--start header-->
-    <header>
-        <h3 class="logo">Genesis           
-        </h3>
-
-<!--start nav-->     
-            <nav class="nav">
-                <ul class="nav__list"> 
-                    <li class="nav__li"><a class="nav__link" href="#">Projecs</a></li>
-                    <li class="nav__li"><a class="nav__link" href="#">Contact</a></li>                  
-                </ul>           
+    <header class="header"> 
+        <div class="header__container">     
+            <!--start nav--> 
+            <nav class="header__nav">                         
+                <div class="header__logo">
+                <h3 class="header__logo">Genesis           
+                </h3>
+                </div>           
+                <div class="header__links">                   
+                        <a href="/pages/projects.html">Projects</a>
+                        <a href="/pages/contact.html">Contact</a>                                 
+                </div>          
             </nav>
-<!--end nav-->
+            <!--end nav--> 
+        </div>
+       
+    </header>
 
-</header>
+    <!--end header-->
 
-<!--end header-->
+    <!--start main-->
 
-<!--start main-->
-
-<main>  
-
-    <div class="main">
-        <h5 class="main__heading">Shooting Stars</h5>
-        <h1 class="main__info">Hello, 
-            I’m Bakhtiyar Sattarov,
-            <span class="main__blue">product designer</span> with experience
-            in studios and startups</h1>
-    </div> 
+    <main>  
+        <div class="main">
+            <div class="main__container">
+                <h5 class="main__heading">Shooting Stars</h5>
+                <h1 class="main__info">Hello, 
+                    I’m Bakhtiyar Sattarov,
+                    <span class="main__blue">product designer</span> with experience
+                    in studios and startups</h1>
+            </div>
+        </div> 
 
     <div class="main-grid-container">
-        <div class="item1"><img src="images/Rectangle-0.png" alt="image"></div>
-        <div class="item2"><img src="images/Rectangle-1.png" alt="image"></div>
-        <div class="item3"><img src="images/Rectangle-2.png" alt="image"></div>
-        <div class="item4"><img src="images/Rectangle-3.png" alt="image"></div>
-        <div class="item5"><img src="images/Rectangle-4.png" alt="image"></div>
-        <div class="item6"><img src="images/Rectangle-5.png" alt="image"></div>
-        <div class="item7"><img src="images/Rectangle-6.png" alt="image"></div>
-        <div class="item8"><img src="images/Rectangle-7.png" alt="image"></div>
-        <div class="item9"><img src="images/Rectangle-8.png" alt="image"></div>
-        <div class="item10"><img src="images/Rectangle-9.png" alt="image"></div>
-        <div class="item11"><img src="images/Rectangle-10.png" alt="image"></div>
-        <div class="item12"><img src="images/Rectangle-11.png" alt="image"></div>
+        <div class="maingrid">
+            <div class="item1"><img src="images/Rectangle-0.png" alt="image"></div>
+            <div class="item2"><img src="images/Rectangle-1.png" alt="image"></div>
+            <div class="item3"><img src="images/Rectangle-2.png" alt="image"></div>
+            <div class="item4"><img src="images/Rectangle-3.png" alt="image"></div>
+            <div class="item5"><img src="images/Rectangle-4.png" alt="image"></div>
+            <div class="item6"><img src="images/Rectangle-5.png" alt="image"></div>
+            <div class="item7"><img src="images/Rectangle-6.png" alt="image"></div>
+            <div class="item8"><img src="images/Rectangle-7.png" alt="image"></div>
+            <div class="item9"><img src="images/Rectangle-8.png" alt="image"></div>
+            <div class="item10"><img src="images/Rectangle-9.png" alt="image"></div>
+            <div class="item11"><img src="images/Rectangle-10.png" alt="image"></div>
+            <div class="item12"><img src="images/Rectangle-11.png" alt="image"></div>
+        </div>
     </div>
          
     <div class="container">
