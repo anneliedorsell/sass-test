@@ -1,23 +1,28 @@
 $main-txt-color: black;
 
 .main {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-  
+    background-color: darkorange;
+
     &__heading {
+        width: 50%;
+        text-align: left;    
+        color: blue;
+        font-size: 22px; 
+        font-weight: 700;  
+    }
+
+    &__info {
         text-align: left;
-        padding-top: 30px;
-        color: $main-txt-color;
         font-size: 40px;
-        line-height: 60px;
-        font-weight: 700;
+        line-height: 50px;
+        width: 50%;
     }
 
-    &__intro {
-        text-align: left;
-        color:#b7f50d ;
-        font-size: 22px;
+    &__blue {
+        color: blue;
     }
-
-
+    
 }

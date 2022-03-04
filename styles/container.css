@@ -1,0 +1,31 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: #de31ee;
+  width: 100%;
+  text-align: center;
+}
+
+.container .heading {
+  width: 50%;
+  text-align: left;
+}
+
+.container .links1 {
+  text-align: left;
+  width: 25%;
+  text-decoration: none;
+}
+
+.container .links2 {
+  text-align: left;
+  width: 25%;
+}
+
+.container .li {
+  text-decoration: none;
+  list-style: none;
+}
+/*# sourceMappingURL=container.css.map */

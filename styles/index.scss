@@ -3,7 +3,13 @@
 @import 'main';
 @import 'fonts';
 @import 'gridcontainer';
+@import 'header';
+@import 'container';
+
 
 body {
     font-family: fonts.$main-font;
+    width: 100% ;
+    background-color: chartreuse;
+       
 }

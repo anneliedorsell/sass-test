@@ -1,0 +1,17 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+.main__heading {
+  text-align: left;
+  padding-top: 30px;
+  color: black;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.main__intro {
+  text-align: left;
+  color: #b7f50d;
+  font-size: 22px;
+}

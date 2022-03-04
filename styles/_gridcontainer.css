@@ -1,36 +1,14 @@
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  background-color: darkorange;
-}
-.main__heading {
-  width: 50%;
-  text-align: left;
-  color: blue;
-  font-size: 22px;
-  font-weight: 700;
-}
-.main__info {
-  text-align: left;
-  font-size: 40px;
-  line-height: 50px;
-  width: 50%;
-}
-.main__blue {
-  color: blue;
-}
-
 .maingrid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: crimson;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-grid-container {
@@ -247,88 +225,4 @@
   -ms-grid-column: 7;
       grid-column-start: 7;
   grid-row-end: 9;
-}
-
-header {
-  height: 15vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.logo {
-  margin-left: 40px;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.nav__li {
-  list-style: none;
-}
-.nav__link {
-  text-decoration: none;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  background-color: #de31ee;
-  width: 100%;
-  text-align: center;
-}
-.container .heading {
-  width: 50%;
-  text-align: left;
-}
-.container .links1 {
-  text-align: left;
-  width: 25%;
-  text-decoration: none;
-}
-.container .links2 {
-  text-align: left;
-  width: 25%;
-}
-.container .li {
-  text-decoration: none;
-  list-style: none;
-}
-
-body {
-  font-family: "Mulish", sans-serif;
-  width: 100%;
-  background-color: chartreuse;
 }

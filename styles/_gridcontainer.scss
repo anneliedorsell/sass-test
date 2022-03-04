@@ -1,17 +1,124 @@
-.gridcontainer {
-    display: grid;
+ 
+.maingrid {
+    display: flex;
+    
+    background-color: crimson;
+    
+
+}
+    .main-grid-container {      
+    display: grid; 
+    // margin-left: 40px;
     grid-template-rows: repeat (32, 1fr);
-    grid-template-columns: repeat (9, 1fr); 
-    background-color: chartreuse;   
-}
+    grid-template-columns: repeat (9, 1fr);    
+    gap: 1rem;
+    width: 80%;
+    min-height: 200vh;
+    margin-left: 40px;
+    margin-right: 40px; 
+    justify-content: center;
+    }
 
-.item1 {
-   grid-row-start: 1;
-   grid-row-end: 7;
-   grid-column-start: 1; 
-   grid-column-end: 3;
-}
+    .main-grid-container img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
 
+    }
+        
+    .item1 {
+    // grid-row-start: 1;
+    // grid-row-end: 7;
+    // grid-column-start: 1; 
+    // grid-column-end: 3;
+
+    grid-area: 1 / 1 / 7 / 3;
+
+    }
+
+    .item2 {
+        // grid-row-start: 8;
+        // grid-row-end: 15;
+        // grid-column-start: 1;
+        // grid-row-end: 3;
+
+        grid-area: 8 / 1 / 15 / 3;
+    }
+
+    .item3 {
+        // grid-row-start: 16;
+        // grid-row-end: 23;
+        // grid-column-start: 1;
+        // grid-row-end: 3;
+
+        grid-area: 16 / 1 / 23 / 3;
+    }
+
+    .item4 {
+        // grid-row-start: 24;
+        // grid-row-end: 32;
+        // grid-column-start: 1;
+        // grid-row-end: 3;
+
+        grid-area: 24 / 1 / 32 / 3;
+    }
+
+
+    .item5 {
+        grid-row-start: 1;
+        grid-row-end: 6;
+        grid-column-start: 4;
+        grid-row-end: 6;
+    }
+
+    .item6 {
+        grid-row-start: 7;
+        grid-row-end: 13;
+        grid-column-start: 4;
+        grid-row-end: 6;
+    }
+
+    .item7 {
+        grid-row-start: 14;
+        grid-row-end: 22;
+        grid-column-start: 4;
+        grid-row-end: 6;
+    }
+
+    .item8 {
+        grid-row-start: 23;
+        grid-row-end: 32;
+        grid-column-start: 4;
+        grid-row-end: 6;
+    }
+
+    .item9 {
+        grid-row-start: 1;
+        grid-row-end: 10;
+        grid-column-start: 7;
+        grid-row-end: 9;
+    }
+
+    .item10 {
+        grid-row-start: 11;
+        grid-row-end: 17;
+        grid-column-start: 7;
+        grid-row-end: 9;
+    }
+
+    .item11 {
+        grid-row-start: 18;
+        grid-row-end: 26;
+        grid-column-start: 7;
+        grid-row-end: 9;
+    }
+
+    .item12 {
+        grid-row-start: 119;
+        grid-row-end: 32;
+        grid-column-start: 7;
+        grid-row-end: 9;
+    }
 
 
 
