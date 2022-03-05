@@ -1,0 +1,30 @@
+.textcontainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: repeat 4, 1fr;
+      grid-template-rows: repeat 4, 1fr;
+  -ms-grid-columns: 3fr 2fr 2fr 1fr;
+      grid-template-columns: 3fr 2fr 2fr 1fr;
+  width: 90%;
+  gap: 1rem;
+}
+
+.text1 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+/*# sourceMappingURL=textcontainer.css.map */
