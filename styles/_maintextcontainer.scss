@@ -1,12 +1,16 @@
-.maintextcontainer {  
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width:90%; 
-    justify-content: center;  
-}    
-    .container__header { 
+.maintextcontainer {     
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    
+}  
+    .maintext {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+    }
+    .container-header { 
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -15,7 +19,7 @@
         font-size: 22px;
     }
    
-    .container__first__links {
+    .container-first-links {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -24,7 +28,7 @@
         width: 25%;     
     }
 
-    .container__second__links {
+    .container-second-links {
         display: flex;
         flex-direction: column;
         justify-content: center;
