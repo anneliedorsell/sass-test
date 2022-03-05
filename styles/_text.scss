@@ -1,0 +1,23 @@
+.text{  
+    display: flex;           
+    background-color: #de31ee;
+    width: 50% + 50%;
+    text-align: center;
+}
+
+    .text__heading {
+        width: 50%;
+        text-align: left;
+    }
+
+    .text__links1, .text__links2 {
+    text-align: left;
+    width: 25%;
+    text-decoration: none;
+    }
+
+   
+    .li {
+        text-decoration: none;
+        list-style: none;
+    }
