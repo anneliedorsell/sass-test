@@ -7,9 +7,10 @@
 @import 'maintextcontainer';
 @import 'awardcontainer';
 @import 'footer';
+@import 'projects.scss';
 
 
 body {
     font-family: fonts.$main-font;
-    width: 100% ;     
+    width: 100%;     
 }

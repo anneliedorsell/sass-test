@@ -1,0 +1,146 @@
+
+.projects {
+display: flex;
+justify-content: space-between;
+width: 100;
+}
+
+    .projects__container {
+        width: 90%;
+    }
+
+    .projects__text {
+        width: 60%;
+    }
+
+    .projects__grid {
+        display: grid;
+        grid-template-rows: repeat (6, 1fr);
+        grid-template-columns: repeat (2, 1fr);
+        width: 40%;
+        gap: 1rem;
+        justify-content: left;
+        justify-items: center;
+        border-bottom: 1px solid gray;   
+    }
+
+    .grid__items {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .item1 {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 1; 
+        grid-column-end: 1;
+    }
+
+    .item2 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-end: 2; 
+        grid-column-end: 1;
+    }
+
+    .item3 {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-row-end: 3; 
+        grid-column-end: 1;
+    }
+    
+    .item4 {
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-row-end: 4; 
+        grid-column-end: 1;
+    }
+
+    .item5 {
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-row-end: 5; 
+        grid-column-end: 1;
+    }
+
+    .item6 {
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-row-end: 6; 
+        grid-column-end: 1;
+    }
+
+    .item7 {
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 1; 
+        grid-column-end: 2;
+    }
+    
+    .item8 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-end: 2; 
+        grid-column-end: 2;
+    }
+
+    .item9 {
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-row-end: 3; 
+        grid-column-end: 2;
+    }
+
+    .item10 {
+        grid-row-start: 4;
+        grid-column-start: 2;
+        grid-row-end: 4; 
+        grid-column-end: 2;
+    }
+
+    .item11 {
+        grid-row-start: 5;
+        grid-column-start: 2;
+        grid-row-end: 5; 
+        grid-column-end: 2;
+    }
+
+    .item12 {
+        grid-row-start: 6;
+        grid-column-start: 2;
+        grid-row-end: 6; 
+        grid-column-end: 2;
+    }
+
+    .projects__image {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .projects__second__bodytext {
+        display: flex;
+        text-align: left ;
+        width: 100%;
+    }
+
+    .projects__imagesbottom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    .project__images {
+        display: flex;
+        justify-content: space-between;  
+    }
+   
+
+
+
+
+
+
+
+
