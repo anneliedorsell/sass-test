@@ -1,0 +1,34 @@
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact__textleft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: left;
+}
+
+.contact__textright {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+ 
+.contact__map {
+    width: 100%;
+    display: flex;   
+}
+.contact__map img {
+    display: flex;
+}
