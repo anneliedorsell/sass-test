@@ -1,0 +1,27 @@
+.contact__form {
+    list-style-type: none; 
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;   
+}
+.form-row > input {
+    padding: 0.3rem;
+  
+}
+input[type=submit] {
+    border: 0;
+    background-color: blue;
+    box-shadow: none;
+    border: none;
+    color: white;   
+}
+
+input[type=text], input[type=email] { 
+    background-color: transparent;
+    outline: none; 
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
