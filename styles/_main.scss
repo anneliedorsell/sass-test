@@ -1,31 +1,30 @@
 $main-txt-color: black;
 
-.main {
-    display: flex;   
-    justify-content: center;
-    width: 100%;
-    
-    .main__container {
-        width: 90%;
-        padding-bottom: 2rem;        
-    }
-    
-    &__heading {      
-        text-align: left;    
-        color: blue;
-        font-size: 22px; 
-        font-weight: 700;  
-    }
-
-    &__info {
-        text-align: left;
-        font-size: 40px;
-        line-height: 50px;
-        width: 60%;      
-    }
-
-    &__blue {
-        color: blue;
-    }
-    
+.mainfirst {    
+display: flex;   
+justify-content: center;
+width: 100%;
 }
+
+.mainfirst__container {
+    width: 90%;        
+}
+
+.mainfirst__heading {      
+    text-align: left;    
+    color: blue;
+    font-size: 1.5rem; 
+    font-weight: 700;  
+}
+
+.mainfirst__info {
+    text-align: left;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 60%;      
+}
+
+.mainfirst__blue {
+    color: blue;
+}
+

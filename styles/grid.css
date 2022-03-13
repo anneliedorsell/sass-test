@@ -1,0 +1,141 @@
+.grid {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+  -ms-grid-rows: (1fr)[32];
+      grid-template-rows: repeat(32, 1fr);
+  gap: 1rem;
+  width: 90%;
+}
+
+.pic {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.first {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 8;
+  grid-column-end: 4;
+}
+
+.second {
+  -ms-grid-row: 8;
+      grid-row-start: 8;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 16;
+  grid-column-end: 4;
+}
+
+.third {
+  -ms-grid-row: 16;
+      grid-row-start: 16;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 24;
+  grid-column-end: 4;
+}
+
+.fourth {
+  -ms-grid-row: 24;
+      grid-row-start: 24;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 32;
+  grid-column-end: 4;
+}
+
+.fifth {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 7;
+  grid-column-end: 7;
+}
+
+.sixth {
+  -ms-grid-row: 7;
+      grid-row-start: 7;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 14;
+  grid-column-end: 7;
+}
+
+.seventh {
+  -ms-grid-row: 14;
+      grid-row-start: 14;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 23;
+  grid-column-end: 7;
+}
+
+.eighth {
+  -ms-grid-row: 23;
+      grid-row-start: 23;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 32;
+  grid-column-end: 7;
+}
+
+.nineth {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-row-end: 11;
+  grid-column-end: 10;
+}
+
+.tenth {
+  -ms-grid-row: 11;
+      grid-row-start: 11;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-row-end: 18;
+  grid-column-end: 10;
+}
+
+.eleventh {
+  -ms-grid-row: 18;
+      grid-row-start: 18;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-row-end: 27;
+  grid-column-end: 10;
+}
+
+.twelveth {
+  -ms-grid-row: 27;
+      grid-row-start: 27;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-row-end: 32;
+  grid-column-end: 10;
+}
+
+.grid__element {
+  overflow: hidden;
+  position: relative;
+}
+/*# sourceMappingURL=grid.css.map */

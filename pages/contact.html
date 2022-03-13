@@ -4,95 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">   
+    <link rel="stylesheet" href="../styles/index.css">
     <script src="https://kit.fontawesome.com/23eeae0687.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">    
     <title>Contact</title>
 </head>
 <body>
-     <!--start header-->
-     <header class="header"> 
-        <div class="header__container">
-            <!--start nav--> 
-                <nav class="header__nav">                         
-                    <div class="header__logo">
-                    <h3 class="header__logo">Genesis           
-                    </h3>
-                    </div>           
-                    <div class="header__links">                   
-                            <a href="pages/projects.html">Projects</a>
-                            <a href="pages/contact.html">Contact</a>                                 
-                    </div>          
-                </nav>
-            <!--end nav--> 
-        </div>      
+    <!--start header-->
+    <header class="header">         
+        <!--start nav--> 
+        <nav class="header__nav">                         
+            <div class="header__logo">
+                <a href="index.html"><img src="../images/Logo.png" alt="logo"></a>                    
+            </div>           
+            <div class="header__links">                   
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>                                 
+            </div>          
+        </nav>
+        <!--end nav-->             
     </header>
     <!--end header-->
-
     <!--start contact-->
-
     <div class="contact">
-        <div class="contact__container">
-            <div class="contact__textleft">
-                <div class="contact__header">
-                    <h2>Full set of great features to make your
+        <div class="contact__text">                         
+            <div class="contact__header">
+                <h2>Full set of great features to make your
                     product fresh</h2>
-                </div>
-                <div class="contact__bodytext">
-                    <p>Our favorite brands are our friends! We help them to achieve their goals, 
-                    they help us to stay sharp.</p>
-                </div>
             </div>
-            <div class="contact__textright">
-                <div class="contact__form">      
-                    <form>
-                        <ul class="form-row">
-                            <li class="form-row">
-                                <label for="name"></label><br>
-                                <input type="text" id="name" name="name" placeholder="Name:"><br>
-                            </li>
-                            <li class="form-row">
-                                <label for="email"></label><br>
-                                <input type="email" id="email" name="email" placeholder="Email:"><br>
-                            </li>
-                            <li class="form-row">
-                                <label for="message"></label><br>
-                                <input type="text" id="message" name="message" placeholder="Message"><br>
-                            </li>
-                            <li class="form-row">
-                                <input type="submit" value="Submit">
-                            </li>
-                        </ul>
-                    </form> 
-                </div>
+            <div class="contact__infotxt">
+                <p>Our favorite brands are our friends! We help them to achieve their goals, 
+                   they help us to stay sharp.</p>
             </div>
-            <div class="contact__map">
-                <img src="Map.png" alt="Map">
-            </div>      
-        </div>
-    </div>
-
+        </div>        
+        <div class="contact__form"> 
+            <div class="contact__form__layout">
+                <form action="">
+                    <input type="text" placeholder="Name" required ><br>
+                    <input type="email" placeholder="Email" required><br>                        
+                    <input type="message" placeholder="Message"><br>   
+                    <button type="submit" class="button">Submit</button>                       
+                </form>              
+            </div> 
+        </div>  
+        <!-- <div class="contact__map">
+            <img src="../images/Map.png" alt="Map">
+        </div>     -->
+    </div>   
     <!--end contact-->
-
-    <!--start footer-->
-    <footer>
-        <div class="footer">
-            <div class="footercontainer">
-                <div class="footercontainer-left">
-                    <h3>Genesis</h3>
+     <!--start footer-->
+     <footer>
+        <div class="footer"> 
+            <div class="footer__container">      
+                <div class="footer__logo">
+                    <a href="index.html"><img src="../images/Logo.png" alt="logo"></a>  
                 </div>                          
-                <div class="footercontainer-right">               
-                        <a class="footer-link" href="/pages/projects.html">Projects</a>
-                        <a class="footer-link" href="/pages/contact.html">Contact</a>                
-                        <i class="fa-brands fa-dribbble"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>                   
-                </div>            
-            </div>
-        </div>      
+                <div class="footer__links">               
+                    <a class="footer-link" href="projects.html">Projects</a>
+                    <a class="footer-link" href="contact.html">Contact</a> 
+                </div> 
+                <div class="footer__icons">              
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div> 
+            </div>                                     
+        </div>        
     </footer>
-    <!--end footer-->        
+    <!--end footer-->    
 </body>
 </html>

@@ -2,17 +2,20 @@
 
 @import 'main';
 @import 'fonts';
-@import 'gridcontainer';
+@import 'grid';
 @import 'header';
 @import 'maintextcontainer';
 @import 'awardcontainer';
 @import 'footer';
-@import 'projects.scss';
+@import 'projects';
 @import 'contact';
-@import 'form'
+
 
 
 body {
-    font-family: fonts.$main-font;
-    width: 100%;     
+    font-family:fonts.$main-font;
+    margin:0;
+    padding: 0;     
 }
+
+
